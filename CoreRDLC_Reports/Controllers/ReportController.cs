@@ -14,6 +14,7 @@ namespace CoreRDLC_Reports.Controllers
         {
             _webHostEnvironment = webHostEnvironment;
         }
+
         public IActionResult Print()
         {
             var studentsData = GetStudentList();

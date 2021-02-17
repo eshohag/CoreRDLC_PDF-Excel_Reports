@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreRDLC_Reports", "CoreRDLC_PDF\CoreRDLC_Reports.csproj", "{4F9A6C53-DBE4-488D-A17A-D12843F39A70}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDLC_Design", "RDLC_Design\RDLC_Design.csproj", "{4A1964A6-4103-4B77-AE1A-AD61C3A61FB6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{0A4B5F18-9DE0-4E53-97A5-0F9D0D1AC62B}"
@@ -14,7 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreRDLC.Entity", "CoreRDLC.Entity\CoreRDLC.Entity.csproj", "{64095D39-F89A-46D0-9984-93FEEC28147F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreRDLC.Extension", "CoreRDLC.Extension\CoreRDLC.Extension.csproj", "{FEDA9BC2-8C44-439D-9197-058D5BE89FA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreRDLC.Extension", "CoreRDLC.Extension\CoreRDLC.Extension.csproj", "{FEDA9BC2-8C44-439D-9197-058D5BE89FA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreRDLC_Reports", "CoreRDLC_Reports\CoreRDLC_Reports.csproj", "{422C0606-94CA-4713-B3BA-AF10092AEC6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +22,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4F9A6C53-DBE4-488D-A17A-D12843F39A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F9A6C53-DBE4-488D-A17A-D12843F39A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F9A6C53-DBE4-488D-A17A-D12843F39A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F9A6C53-DBE4-488D-A17A-D12843F39A70}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4A1964A6-4103-4B77-AE1A-AD61C3A61FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A1964A6-4103-4B77-AE1A-AD61C3A61FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A1964A6-4103-4B77-AE1A-AD61C3A61FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -38,6 +34,10 @@ Global
 		{FEDA9BC2-8C44-439D-9197-058D5BE89FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEDA9BC2-8C44-439D-9197-058D5BE89FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEDA9BC2-8C44-439D-9197-058D5BE89FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422C0606-94CA-4713-B3BA-AF10092AEC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422C0606-94CA-4713-B3BA-AF10092AEC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422C0606-94CA-4713-B3BA-AF10092AEC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422C0606-94CA-4713-B3BA-AF10092AEC6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
