@@ -1,5 +1,6 @@
 ﻿using AspNetCore.Reporting;
 using CoreRDLC.Entity;
+using CoreRDLC.Extension;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -16,14 +17,19 @@ namespace CoreRDLC_Reports.Controllers
         public IActionResult Print()
         {
             var studentsData = GetStudentList();
-
             string mimetype = "";
             int extension = 1;
-            var path = $"{this._webHostEnvironment.WebRootPath}/Reports/Designer/StudentReport.rdlc";
-
+            var path = $"{this._webHostEnvironment.WebRootPath}\\Reports\\Designer\\StudentReport.rdlc";
+            var header = new ReportHeader()
+            {
+                Logo = $"{this._webHostEnvironment.WebRootPath}\\Images\\Logo\\logo.png",
+                Title = "Student Information by RDLC Reports"
+            };
             Dictionary<string, string> parameters = new Dictionary<string, string>();
-            parameters.Add("title", "Student Information by RDLC Report");
+            //parameters.Add("title", "Student Information by RDLC Report");
             LocalReport lr = new LocalReport(path);
+
+            lr.AddDataSource("ReportHeader", header.ToDataTable());
             lr.AddDataSource("Students", studentsData);
 
             var result = lr.Execute(RenderType.Pdf, extension, parameters, mimetype);
