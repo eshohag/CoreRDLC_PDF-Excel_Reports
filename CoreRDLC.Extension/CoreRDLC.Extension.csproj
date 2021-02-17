@@ -4,8 +4,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\CoreRDLC.Extension\CoreRDLC.Extension.csproj" />
-  </ItemGroup>
-
 </Project>

@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreRDLC.Entity", "CoreRDLC.Entity\CoreRDLC.Entity.csproj", "{64095D39-F89A-46D0-9984-93FEEC28147F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreRDLC.Extension", "CoreRDLC.Extension\CoreRDLC.Extension.csproj", "{FEDA9BC2-8C44-439D-9197-058D5BE89FA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{64095D39-F89A-46D0-9984-93FEEC28147F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64095D39-F89A-46D0-9984-93FEEC28147F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64095D39-F89A-46D0-9984-93FEEC28147F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDA9BC2-8C44-439D-9197-058D5BE89FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDA9BC2-8C44-439D-9197-058D5BE89FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDA9BC2-8C44-439D-9197-058D5BE89FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDA9BC2-8C44-439D-9197-058D5BE89FA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
